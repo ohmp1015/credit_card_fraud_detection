@@ -1,35 +1,110 @@
-# 💳 Credit Card Fraud Detection App
+# 🩺 Diagnostic Helper (AI Health Assistant)
 
-This is a Streamlit-based web application that detects fraudulent credit card transactions using a Logistic Regression model. Users can either upload a batch of transaction data or enter details manually to get instant predictions.
-
----
-
-## 🚀 Features
-
-- ✅ *Batch Prediction* via CSV upload
-- ✍ *Manual Input* of transaction data
-- 📊 *Prediction summary* with counts and visualizations
-- 🧁 *Interactive pie chart* of transaction types (Fraud/Normal)
-- 💰 *Total amount analysis* per transaction type
-- 📥 *Downloadable prediction results*
+An AI-powered diagnostic assistant that helps users understand symptoms and provides possible health insights. This project demonstrates how AI can assist in preliminary health analysis and awareness.
 
 ---
 
-## 📁 Dataset
+## ✨ Key Features
 
-The app uses the [Kaggle Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) which contains:
-
-- *284,807 transactions* from two days in September 2013
-- Features V1 to V28 (PCA-transformed)
-- Time, Amount, and Class columns
-- Class = 1 → Fraudulent | Class = 0 → Normal
+- 🧠 Symptom-based analysis
+- 📋 Suggests possible conditions
+- ⚡ Quick and interactive responses
+- 📊 Informational health insights
+- 🔄 Easy-to-use interface
 
 ---
 
-## 🛠 Technologies Used
+## 🏗️ Architecture
 
-- [Python 3.12+](https://www.python.org)
-- [Streamlit](https://streamlit.io/)
-- [Scikit-learn](https://scikit-learn.org)
-- [Pandas & NumPy](https://pandas.pydata.org)
-- [Plotly](https://plotly.com/python/) – for visualizations
+```
+User Input (Symptoms) → Processing Logic / AI Model → Analysis → Suggested Conditions → Output
+```
+
+---
+
+## 📂 Project Structure
+
+```
+diagnostic_helper/
+│
+├── main.py              # Main application file
+├── model/               # ML/AI model files (if any)
+├── utils.py             # Helper functions
+├── requirements.txt     # Dependencies
+└── README.md            # Documentation
+```
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- Basic understanding of Python
+
+---
+
+## 📁 Setup Instructions
+
+### 1️⃣ Clone Repository
+```bash
+git clone <your-repo-link>
+cd diagnostic_helper
+```
+
+### 2️⃣ Create Virtual Environment
+```bash
+python -m venv .venv
+
+# Activate (Windows)
+.\.venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source .venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+python main.py
+```
+
+---
+
+## 🛠️ Technology Stack
+
+- Python
+- Machine Learning (if used)
+- Pandas / NumPy
+
+---
+
+## 🎯 Key Concepts
+
+- Symptom analysis
+- AI-based prediction
+- Data-driven insights
+- User interaction
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is for educational purposes only and should not be used as a substitute for professional medical advice.
+
+---
+
+## 🚀 Future Improvements
+
+- Add chatbot interface
+- Improve prediction accuracy
+- Integrate real medical datasets
+- Deploy as web application
+
